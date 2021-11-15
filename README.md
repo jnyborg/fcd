@@ -1,5 +1,5 @@
 # FCD: Fixed-Point GAN for Cloud Detection
-![](images/pull_figure.pdf)
+![](images/pull_figure.png)
 PyTorch source code of [Nyborg & Assent (2020)]().
 
 ## Abstract

@@ -1,0 +1,13 @@
+data/*
+runs/*
+**/__pycache__
+.idea/
+__pycache__/*
+logs/*
+checkpoints/*
+celeba/*
+pretrained_models/*
+landsat8-biome/
+
+.DS_Store
+.ipynb_checkpoints/*

@@ -1,6 +1,6 @@
 # FCD: Fixed-Point GAN for Cloud Detection
 ![](images/pull_figure.jpg)
-PyTorch source code of [Nyborg & Assent (2020)]().
+PyTorch source code of [Nyborg & Assent (2020)](https://arxiv.org/abs/2111.11879).
 
 ## Abstract
 The detection of clouds in satellite images is an essential preprocessing task for big data in remote sensing. Convolutional neural networks (CNNs) have greatly advanced the state-of-the-art in the detection of clouds in satellite images, but existing CNN-based methods are costly as they require large amounts of training images with expensive pixel-level cloud labels.
@@ -88,9 +88,17 @@ See the bash scripts in the `scripts` folder for the exact runs done in the pape
 
 
 # Citation
-If you find our work useful for your research, please site our [paper](TODO):
+If you find our work useful for your research, please cite our [paper](https://arxiv.org/abs/2111.11879):
 ```
-TODO citation info here
+@inproceedings{nyborg2021fcd,
+  author={Joachim Nyborg and Ira Assent},
+  title={Weakly-Supervised Cloud Detection with Fixed-Point GANs}, 
+  booktitle={2021 {IEEE} International Conference on Big Data (Big Data)},
+  pages={4191--4198},
+  publisher={{IEEE}},
+  year={2021},
+  doi={10.1109/BigData52589.2021.9671405}
+}
 ```
 
 
